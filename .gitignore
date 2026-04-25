@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (VERY IMPORTANT)
+*.pkl
+*.pt
+*.h5
+
+# Dataset
+data/
+train/
+test/
+valid/
+*.csv
+*.zip
+
+# Images / outputs
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+*.txt
+
+# Mac system files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Kaggle
+.kaggle/
+kaggle.json
