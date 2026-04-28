@@ -1,5 +1,5 @@
 """
-Parking Occupancy Prediction - Complete Self-Contained Script
+Parking Occupancy Prediction - Complete Self-Contained Script.
 For processing 9000+ images with comprehensive statistics
 """
 
