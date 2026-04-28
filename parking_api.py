@@ -21,9 +21,9 @@ try:
     if os.path.exists(model_path):
         predictor = ParkingPredictor()
         predictor.load_model(model_path)
-        print("✅ Traffic Parking Model loaded successfully.")
+        print("✅ Traffic Parking Model loaded successfully")
     else:
-        print("⚠️ Warning: parking_model.pkl not found! Running in simulation mode.")
+        print("⚠️ Warning: parking_model.pkl not found! Running in simulation mode")
 except Exception as e:
     print(f"⚠️ Error loading model: {e}")
 
